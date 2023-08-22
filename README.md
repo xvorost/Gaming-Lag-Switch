@@ -7,7 +7,10 @@ Actually work Lag Switch for EFT, DayZ and etc. games (UDP/TCP inbound/outbound 
 Use Visual Studio 2019, be sure to add to the DirectX project.
 Select "Release" and compile. Compiled files goes in root x64 directory.<br>
 
-***Please star and fork this repo!***
+### Instructions for use:
+<a href="https://lagswitch.org/instructions/en/">EN</a> | <a href="https://lagswitch.org/instructions/ru/">RU</a>
+
+#### Please star and fork this repo!
 
 ### Example block/unblock inbound udp packets
 ```cpp

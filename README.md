@@ -16,7 +16,7 @@ Select "Release" and compile. Compiled files goes in root x64 directory.<br>
 HANDLE engineHandle;
 if (DWORD result = FwpmEngineOpen0(NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &engineHandle))
 {
-    logs.AddLog(xor ("\n[-] Error 1 - 0x%s"), to_string(result));
+    //logs.AddLog(xor ("\n[-] Error 1 - 0x%s"), to_string(result));
 }
 FWPM_FILTER0 filter;
 SecureZeroMemory(&filter, sizeof(filter));

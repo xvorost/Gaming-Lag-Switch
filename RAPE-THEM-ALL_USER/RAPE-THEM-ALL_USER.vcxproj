@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{93840c81-c591-451a-aa10-093c4fa3170f}</ProjectGuid>
+    <RootNamespace>RAPETHEMALLUSER</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GLS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\xvorost\Desktop\Projects\private\GLS\GLS arch\RAPE-THEM-ALL_USER;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>false</ControlFlowGuard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\audiodefs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\comdecl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2D1.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2D1Helper.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DBaseTypes.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2Derr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10effect.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10misc.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10sdklayers.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10shader.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10_1.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10_1shader.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11SDKLayers.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11Shader.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3Dcommon.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3Dcompiler.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DCSX.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx10async.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10core.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10math.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10mesh.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10tex.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11async.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11core.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11tex.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dcommon.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinputd.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsconf.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsetup.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsound.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DWrite.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxdiag.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DxErr.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxfile.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGI.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGIFormat.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGIType.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxsdkver.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\gameux.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\PIXPlugin.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rmxfguid.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rmxftmpl.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rpcsal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\X3DAudio.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3d3.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3wb.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPO.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPOBase.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPOFX.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAudio2.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAudio2fx.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XDSP.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XInput.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xma2defs.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xnamath.h" />
+    <ClInclude Include="Hotkey.h" />
+    <ClInclude Include="ImGuiLogs.h" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="InputUtil.h" />
+    <ClInclude Include="lazy.h" />
+    <ClInclude Include="print.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="webhook.h" />
+    <ClInclude Include="xor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getoffsets.cpp" />
+    <ClCompile Include="Hotkey.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_demo.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="InputUtil.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="print.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d2d1.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d10.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d10_1.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d11.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d9.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dcompiler.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\D3DCSX.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\D3DCSXd.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx10.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx10d.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx11.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx11d.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9d.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dxof.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dinput8.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dsound.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dwrite.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\DxErr.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxgi.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxguid.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\X3DAudio.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\xapobase.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\xapobased.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\XAPOFX.lib" />
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\XInput.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10math.inl" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX_DXGIFormatConvert.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

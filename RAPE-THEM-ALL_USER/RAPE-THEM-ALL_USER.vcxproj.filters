@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{8d1d47ee-5810-4744-8739-7e283c26ce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{fdd53f0b-f06b-4e75-8765-9bd1ea792177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{825e388e-0ab6-419f-825d-5bde4c4cd764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{a8e224e1-bf66-4cb1-8c53-6b54128f8c27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotkey.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputUtil.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="webhook.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiLogs.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\audiodefs.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\comdecl.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2D1.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2D1Helper.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2DBaseTypes.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D2Derr.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9caps.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d9types.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10_1.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10_1shader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10effect.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10misc.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10sdklayers.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D10shader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11SDKLayers.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11Shader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3Dcommon.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3Dcompiler.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DCSX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9anim.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9effect.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9mesh.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shader.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9shape.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9tex.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9xof.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx10async.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10core.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10math.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10mesh.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10tex.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11async.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11core.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11tex.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\Dcommon.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinputd.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsconf.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsetup.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dsound.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DWrite.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxdiag.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DxErr.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxfile.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGI.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGIFormat.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\DXGIType.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxsdkver.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\gameux.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\PIXPlugin.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rmxfguid.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rmxftmpl.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\rpcsal.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\X3DAudio.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3d3.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xact3wb.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPO.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPOBase.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAPOFX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAudio2.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XAudio2fx.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XDSP.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\XInput.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xma2defs.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\xnamath.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="getoffsets.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotkey.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputUtil.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="print.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d2d1.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d9.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d10.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d10_1.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d11.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dcompiler.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\D3DCSX.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\D3DCSXd.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9d.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx10.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx10d.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx11.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx11d.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dxof.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dinput8.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dsound.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dwrite.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\DxErr.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxgi.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxguid.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\X3DAudio.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\xapobase.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\xapobased.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\XAPOFX.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\XInput.lib">
+      <Filter>DirectX</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>DirectX</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9math.inl">
+      <Filter>DirectX</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX10math.inl">
+      <Filter>DirectX</Filter>
+    </None>
+  </ItemGroup>
+</Project>

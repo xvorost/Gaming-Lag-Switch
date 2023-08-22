@@ -25,10 +25,6 @@
 #include "lazy.h"
 #include "xor.h"
 
-#ifdef DEBUG
-#include <DxErr.h>
-#pragma comment(lib, "dxerr.lib")
-#endif
 #include <wininet.h>
 #pragma comment ( lib, "Wininet.lib" )
 #include <fwpmu.h>

@@ -3,10 +3,11 @@ Actually work Lag Switch for EFT, DayZ and etc. games (UDP/TCP inbound/outbound 
 
 <img src="https://cdn.discordapp.com/attachments/439961603744464899/1143544993395515392/image.png"></img>
 
-### Usage
+### How to complie
 Use Visual Studio 2019, be sure to add to the DirectX project.
 Select "Release" and compile. Compiled files goes in root x64 directory.<br>
-**Please star and fork this repo!**
+
+***Please star and fork this repo!***
 
 ### Example block/unblock inbound udp packets
 ```cpp
